@@ -35,7 +35,7 @@ d4=symbols('d_4')
 a1=symbols('a_1')
 a2=symbols('a_2')
 
-Matrix_DH = Matrix([[theta1,d1,a1,0], [theta2,0,a2,mt.pi], [0,d3,0,0], [0,0,d4,theta4]]);
+Matrix_DH = Matrix([[theta1,d1,a1,0], [theta2,0,a2,mt.pi], [0,d3,0,0], [0,0,d4,theta4]])
 
 Matrix_T1=transfMatrix(Matrix_DH, 0)
 Matrix_T2=transfMatrix(Matrix_DH, 1)
@@ -44,13 +44,13 @@ Matrix_T4=transfMatrix(Matrix_DH, 3)
 
 Matrix_TF=Matrix_T1*Matrix_T2*Matrix_T3*Matrix_T4
 
-pprint (Matrix_T1)
-pprint (Matrix_T2)
-pprint (Matrix_T3)
-pprint (Matrix_T4)
+# pprint (Matrix_T1)
+# pprint (Matrix_T2)
+# pprint (Matrix_T3)
+# pprint (Matrix_T4)
 
-pprint (Matrix_TF)
+# pprint (Matrix_TF)
 
-pprint (simplify(Matrix_TF))
+# pprint (simplify(Matrix_TF))
 
-pprint(Matrix_DH)
+# pprint(Matrix_DH)
