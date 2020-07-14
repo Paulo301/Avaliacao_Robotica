@@ -44,13 +44,13 @@ Matrix_T4=transfMatrix(Matrix_DH, 3)
 
 Matrix_TF=Matrix_T1*Matrix_T2*Matrix_T3*Matrix_T4
 
-# pprint (Matrix_T1)
-# pprint (Matrix_T2)
-# pprint (Matrix_T3)
-# pprint (Matrix_T4)
+pprint (Matrix_T1)
+pprint (Matrix_T2)
+pprint (Matrix_T3)
+pprint (Matrix_T4)
 
-# pprint (Matrix_TF)
+pprint (Matrix_TF)
 
-# pprint (simplify(Matrix_TF))
+pprint (simplify(Matrix_TF))
 
 # pprint(Matrix_DH)
